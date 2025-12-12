@@ -1,0 +1,12 @@
+{
+  "current_index": 2,
+  "total_steps": 250,
+  "plasmid_visit_counts": {
+    "L09137.2": 3,
+    "U13853.1": 2,
+    "J01749.1": 2,
+    "EF442785.1": 2,
+    "CP060383.1": 2
+  },
+  "last_checkpoint": null
+}

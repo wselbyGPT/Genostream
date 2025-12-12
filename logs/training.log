@@ -1,0 +1,105 @@
+2025-12-11 20:24:20,042 [INFO] L09137.2: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:24:20,425 [INFO] L09137.2: fetched and saved FASTA (2777 bytes)
+2025-12-11 20:24:31,259 [INFO] L09137.2: encoded sequence of length 2686 -> 9 windows, window_size=512, stride=256
+2025-12-11 20:24:31,260 [INFO] L09137.2: saved encoded tensor to cache/encoded/L09137.2.npy
+2025-12-11 20:24:43,400 [INFO] L09137.2: using cached FASTA at cache/fasta/L09137.2.fasta
+2025-12-11 20:24:43,401 [INFO] L09137.2: encoded sequence of length 2686 -> 9 windows, window_size=512, stride=256
+2025-12-11 20:24:43,402 [INFO] L09137.2: saved encoded tensor to cache/encoded/L09137.2.npy
+2025-12-11 20:24:43,402 [INFO] L09137.2: starting stub training on tensor shape=(9, 512, 4), steps=50, batch_size=16
+2025-12-11 20:24:43,402 [INFO] L09137.2: finished stub training; total_steps=50, fake_loss=0.019608
+2025-12-11 20:24:43,402 [INFO] L09137.2: deleted cache/fasta/L09137.2.fasta
+2025-12-11 20:24:43,403 [INFO] L09137.2: deleted cache/encoded/L09137.2.npy
+2025-12-11 20:24:57,896 [INFO] Starting streaming loop: 5 accessions, max_epochs=2, steps_per_plasmid=20, window_size=512, stride=256, shuffle_catalog=True
+2025-12-11 20:24:57,896 [INFO] Epoch 1/2: order=[2, 1, 3, 4, 0]
+2025-12-11 20:24:57,896 [INFO] Streaming accession idx=2, id=U13853.1
+2025-12-11 20:24:57,896 [INFO] U13853.1: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:24:58,461 [INFO] U13853.1: fetched and saved FASTA (5094 bytes)
+2025-12-11 20:24:58,473 [INFO] U13853.1: encoded sequence of length 4969 -> 18 windows, window_size=512, stride=256
+2025-12-11 20:24:58,475 [INFO] U13853.1: saved encoded tensor to cache/encoded/U13853.1.npy
+2025-12-11 20:24:58,475 [INFO] U13853.1: starting stub training on tensor shape=(18, 512, 4), steps=20, batch_size=16
+2025-12-11 20:24:58,476 [INFO] U13853.1: finished stub training; total_steps=70, fake_loss=0.014085
+2025-12-11 20:24:58,477 [INFO] U13853.1: deleted cache/fasta/U13853.1.fasta
+2025-12-11 20:24:58,478 [INFO] U13853.1: deleted cache/encoded/U13853.1.npy
+2025-12-11 20:24:58,478 [INFO] Streaming accession idx=1, id=J01749.1
+2025-12-11 20:24:58,479 [INFO] J01749.1: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:24:59,005 [INFO] J01749.1: fetched and saved FASTA (4476 bytes)
+2025-12-11 20:24:59,013 [INFO] J01749.1: encoded sequence of length 4361 -> 16 windows, window_size=512, stride=256
+2025-12-11 20:24:59,014 [INFO] J01749.1: saved encoded tensor to cache/encoded/J01749.1.npy
+2025-12-11 20:24:59,015 [INFO] J01749.1: starting stub training on tensor shape=(16, 512, 4), steps=20, batch_size=16
+2025-12-11 20:24:59,015 [INFO] J01749.1: finished stub training; total_steps=90, fake_loss=0.010989
+2025-12-11 20:24:59,016 [INFO] J01749.1: deleted cache/fasta/J01749.1.fasta
+2025-12-11 20:24:59,017 [INFO] J01749.1: deleted cache/encoded/J01749.1.npy
+2025-12-11 20:24:59,017 [INFO] Streaming accession idx=3, id=EF442785.1
+2025-12-11 20:24:59,018 [INFO] EF442785.1: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:24:59,569 [INFO] EF442785.1: fetched and saved FASTA (7494 bytes)
+2025-12-11 20:24:59,589 [INFO] EF442785.1: encoded sequence of length 7328 -> 27 windows, window_size=512, stride=256
+2025-12-11 20:24:59,592 [INFO] EF442785.1: saved encoded tensor to cache/encoded/EF442785.1.npy
+2025-12-11 20:24:59,594 [INFO] EF442785.1: starting stub training on tensor shape=(27, 512, 4), steps=20, batch_size=16
+2025-12-11 20:24:59,595 [INFO] EF442785.1: finished stub training; total_steps=110, fake_loss=0.009009
+2025-12-11 20:24:59,602 [INFO] EF442785.1: deleted cache/fasta/EF442785.1.fasta
+2025-12-11 20:24:59,603 [INFO] EF442785.1: deleted cache/encoded/EF442785.1.npy
+2025-12-11 20:24:59,604 [INFO] Streaming accession idx=4, id=CP060383.1
+2025-12-11 20:24:59,604 [INFO] CP060383.1: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:25:00,102 [INFO] CP060383.1: fetched and saved FASTA (144468 bytes)
+2025-12-11 20:25:00,184 [INFO] CP060383.1: encoded sequence of length 142357 -> 555 windows, window_size=512, stride=256
+2025-12-11 20:25:00,187 [INFO] CP060383.1: saved encoded tensor to cache/encoded/CP060383.1.npy
+2025-12-11 20:25:00,187 [INFO] CP060383.1: starting stub training on tensor shape=(555, 512, 4), steps=20, batch_size=16
+2025-12-11 20:25:00,187 [INFO] CP060383.1: finished stub training; total_steps=130, fake_loss=0.007634
+2025-12-11 20:25:00,188 [INFO] CP060383.1: deleted cache/fasta/CP060383.1.fasta
+2025-12-11 20:25:00,188 [INFO] CP060383.1: deleted cache/encoded/CP060383.1.npy
+2025-12-11 20:25:00,188 [INFO] Streaming accession idx=0, id=L09137.2
+2025-12-11 20:25:00,188 [INFO] L09137.2: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:25:00,760 [INFO] L09137.2: fetched and saved FASTA (2777 bytes)
+2025-12-11 20:25:00,770 [INFO] L09137.2: encoded sequence of length 2686 -> 9 windows, window_size=512, stride=256
+2025-12-11 20:25:00,772 [INFO] L09137.2: saved encoded tensor to cache/encoded/L09137.2.npy
+2025-12-11 20:25:00,773 [INFO] L09137.2: starting stub training on tensor shape=(9, 512, 4), steps=20, batch_size=16
+2025-12-11 20:25:00,773 [INFO] L09137.2: finished stub training; total_steps=150, fake_loss=0.006623
+2025-12-11 20:25:00,774 [INFO] L09137.2: deleted cache/fasta/L09137.2.fasta
+2025-12-11 20:25:00,775 [INFO] L09137.2: deleted cache/encoded/L09137.2.npy
+2025-12-11 20:25:00,775 [INFO] Epoch 2/2: order=[3, 1, 0, 4, 2]
+2025-12-11 20:25:00,775 [INFO] Streaming accession idx=3, id=EF442785.1
+2025-12-11 20:25:00,776 [INFO] EF442785.1: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:25:01,202 [INFO] EF442785.1: fetched and saved FASTA (7494 bytes)
+2025-12-11 20:25:01,218 [INFO] EF442785.1: encoded sequence of length 7328 -> 27 windows, window_size=512, stride=256
+2025-12-11 20:25:01,220 [INFO] EF442785.1: saved encoded tensor to cache/encoded/EF442785.1.npy
+2025-12-11 20:25:01,220 [INFO] EF442785.1: starting stub training on tensor shape=(27, 512, 4), steps=20, batch_size=16
+2025-12-11 20:25:01,221 [INFO] EF442785.1: finished stub training; total_steps=170, fake_loss=0.005848
+2025-12-11 20:25:01,222 [INFO] EF442785.1: deleted cache/fasta/EF442785.1.fasta
+2025-12-11 20:25:01,222 [INFO] EF442785.1: deleted cache/encoded/EF442785.1.npy
+2025-12-11 20:25:01,223 [INFO] Streaming accession idx=1, id=J01749.1
+2025-12-11 20:25:01,223 [INFO] J01749.1: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:25:01,811 [INFO] J01749.1: fetched and saved FASTA (4476 bytes)
+2025-12-11 20:25:01,815 [INFO] J01749.1: encoded sequence of length 4361 -> 16 windows, window_size=512, stride=256
+2025-12-11 20:25:01,816 [INFO] J01749.1: saved encoded tensor to cache/encoded/J01749.1.npy
+2025-12-11 20:25:01,816 [INFO] J01749.1: starting stub training on tensor shape=(16, 512, 4), steps=20, batch_size=16
+2025-12-11 20:25:01,816 [INFO] J01749.1: finished stub training; total_steps=190, fake_loss=0.005236
+2025-12-11 20:25:01,816 [INFO] J01749.1: deleted cache/fasta/J01749.1.fasta
+2025-12-11 20:25:01,817 [INFO] J01749.1: deleted cache/encoded/J01749.1.npy
+2025-12-11 20:25:01,817 [INFO] Streaming accession idx=0, id=L09137.2
+2025-12-11 20:25:01,817 [INFO] L09137.2: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:25:02,240 [INFO] L09137.2: fetched and saved FASTA (2777 bytes)
+2025-12-11 20:25:02,248 [INFO] L09137.2: encoded sequence of length 2686 -> 9 windows, window_size=512, stride=256
+2025-12-11 20:25:02,250 [INFO] L09137.2: saved encoded tensor to cache/encoded/L09137.2.npy
+2025-12-11 20:25:02,251 [INFO] L09137.2: starting stub training on tensor shape=(9, 512, 4), steps=20, batch_size=16
+2025-12-11 20:25:02,252 [INFO] L09137.2: finished stub training; total_steps=210, fake_loss=0.004739
+2025-12-11 20:25:02,255 [INFO] L09137.2: deleted cache/fasta/L09137.2.fasta
+2025-12-11 20:25:02,256 [INFO] L09137.2: deleted cache/encoded/L09137.2.npy
+2025-12-11 20:25:02,256 [INFO] Streaming accession idx=4, id=CP060383.1
+2025-12-11 20:25:02,257 [INFO] CP060383.1: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:25:03,106 [INFO] CP060383.1: fetched and saved FASTA (144468 bytes)
+2025-12-11 20:25:03,203 [INFO] CP060383.1: encoded sequence of length 142357 -> 555 windows, window_size=512, stride=256
+2025-12-11 20:25:03,207 [INFO] CP060383.1: saved encoded tensor to cache/encoded/CP060383.1.npy
+2025-12-11 20:25:03,207 [INFO] CP060383.1: starting stub training on tensor shape=(555, 512, 4), steps=20, batch_size=16
+2025-12-11 20:25:03,207 [INFO] CP060383.1: finished stub training; total_steps=230, fake_loss=0.004329
+2025-12-11 20:25:03,208 [INFO] CP060383.1: deleted cache/fasta/CP060383.1.fasta
+2025-12-11 20:25:03,209 [INFO] CP060383.1: deleted cache/encoded/CP060383.1.npy
+2025-12-11 20:25:03,209 [INFO] Streaming accession idx=2, id=U13853.1
+2025-12-11 20:25:03,209 [INFO] U13853.1: fetching from NCBI https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
+2025-12-11 20:25:03,639 [INFO] U13853.1: fetched and saved FASTA (5094 bytes)
+2025-12-11 20:25:03,652 [INFO] U13853.1: encoded sequence of length 4969 -> 18 windows, window_size=512, stride=256
+2025-12-11 20:25:03,654 [INFO] U13853.1: saved encoded tensor to cache/encoded/U13853.1.npy
+2025-12-11 20:25:03,655 [INFO] U13853.1: starting stub training on tensor shape=(18, 512, 4), steps=20, batch_size=16
+2025-12-11 20:25:03,655 [INFO] U13853.1: finished stub training; total_steps=250, fake_loss=0.003984
+2025-12-11 20:25:03,656 [INFO] U13853.1: deleted cache/fasta/U13853.1.fasta
+2025-12-11 20:25:03,657 [INFO] U13853.1: deleted cache/encoded/U13853.1.npy
+2025-12-11 20:25:03,657 [INFO] Streaming loop finished.
