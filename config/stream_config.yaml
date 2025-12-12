@@ -1,0 +1,23 @@
+# stream_config.yaml — default configuration for genostream
+
+ncbi:
+  email: "you@example.com"      # TODO: set to your email for NCBI
+  api_key: null                 # optional NCBI API key
+  max_retries: 3
+  backoff_seconds: 2
+
+training:
+  steps_per_plasmid: 50         # gradient steps per plasmid visit
+  batch_size: 16
+  window_size: 512
+  stride: 256
+  max_stream_epochs: 100
+  shuffle_catalog: true
+
+io:
+  cache_fasta_dir: "cache/fasta"
+  cache_encoded_dir: "cache/encoded"
+  model_dir: "model"
+  checkpoints_dir: "model/checkpoints"
+  logs_dir: "logs"
+  state_file: "state/progress.json"

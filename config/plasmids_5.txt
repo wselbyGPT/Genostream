@@ -1,0 +1,6 @@
+# config/plasmids_5.txt
+L09137.2      # pUC19
+J01749.1      # pBR322
+U13853.1      # pGEX-4T-1
+EF442785.1    # pET28a-LIC
+CP060383.1    # pRK100 (big boy)
